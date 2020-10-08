@@ -1,0 +1,137 @@
+{
+  "width": 900,
+  "height": 1060,
+  "RectangularObjects": [
+    {
+      "pos": [200, 940],
+      "width": 700,
+      "height": 20
+    },
+    {
+      "pos": [0, 820],
+      "width": 780,
+      "height": 20
+    },
+    {
+      "pos": [780, 340],
+      "width": 20,
+      "height": 500
+    },
+    {
+      "pos": [100, 700],
+      "width": 580,
+      "height": 20
+    },
+    {
+      "pos": [660, 0],
+      "width": 20,
+      "height": 700
+    },
+    {
+      "pos": [100, 580],
+      "width": 460,
+      "height": 20
+    },
+    {
+      "pos": [100, 100],
+      "width": 20,
+      "height": 480
+    },
+    {
+      "pos": [220, 100],
+      "width": 300,
+      "height": 20
+    },
+    {
+      "pos": [220, 220],
+      "width": 20,
+      "height": 360
+    },
+    {
+      "pos": [240, 220],
+      "width": 100,
+      "height": 20
+    },
+    {
+      "pos": [460, 220],
+      "width": 100,
+      "height": 20
+    },
+    {
+      "pos": [540, 240],
+      "width": 20,
+      "height": 340
+    },
+    {
+      "pos": [340, 340],
+      "width": 100,
+      "height": 20
+    },
+    {
+      "pos": [340, 460],
+      "width": 100,
+      "height": 20
+    }
+  ],
+  "MovingObstacles": [
+    {
+      "pos": [270, 270],
+      "radius": 20,
+      "points": [
+        [480, 270],
+        [480, 510],
+        [270, 510],
+        [270, 270]
+      ]
+    },
+    {
+      "pos": [20, 520],
+      "radius": 20,
+      "points": [
+        [20, 630],
+        [150, 630],
+        [20, 630],
+        [20, 520]
+      ]
+    },
+    {
+      "pos": [70, 980],
+      "radius": 40,
+      "points": [
+        [70, 860],
+        [70, 980]
+      ]
+    }
+  ],
+  "Character": {
+    "radius": 20
+  },
+  "SavePoints": [
+    {
+      "pos": [340, 360],
+      "width": 100,
+      "height": 100
+    },
+    {
+      "pos": [120, 480],
+      "width": 100,
+      "height": 100
+    },
+    {
+      "pos": [100, 720],
+      "width": 100,
+      "height": 100
+    },
+    {
+      "pos": [800, 960],
+      "width": 100,
+      "height": 100
+    }
+  ],"Fiends": [
+    {
+      "pos": [0, 80],
+      "radius": 20,
+      "speed": 6
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="https://github.com/google/stagehand" name="scaffolded-by">
+    <title>Team 1-F</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="favicon.ico" rel="icon">
+    <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="title">Evade</h1>
+        <div id="menu">
+            <div id="qr"></div>
+            <div id="buttons"></div>
+        </div>
+        <div id="game">
+            <div id="gameField"></div>
+        </div>
+    </div>
+    <script>
+        function requestiOSGyro() {
+            // feature detect
+            try {
+                if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+                    DeviceOrientationEvent.requestPermission()
+                        .then(permissionState => {
+                            if (permissionState === 'granted') {
+                                window.addEventListener('deviceorientation', () => { });
+                            }
+                        })
+                        .catch(console.error);
+                } else {
+                    // handle regular non iOS 13+ devices
+                }
+            } catch (e) {
+                console.log('not an ios device');
+            }
+        }
+    </script>
+</body>
+
+</html>

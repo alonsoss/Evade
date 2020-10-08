@@ -1,0 +1,84 @@
+{
+  "width": 660,
+  "height": 400,
+  "RectangularObjects": [
+    {
+      "pos": [280, 0],
+      "width": 20,
+      "height": 270
+    },
+    {
+      "pos": [400, 130],
+      "width": 20,
+      "height": 270
+    },
+    {
+      "pos": [520, 0],
+      "width": 20,
+      "height": 300
+    },
+    {
+      "pos": [0, 150],
+      "width": 150,
+      "height": 20
+    },
+    {
+      "pos": [200, 270],
+      "width": 100,
+      "height": 20
+    }
+  ],
+  "MovingObstacles": [
+    {
+      "pos": [305, 40],
+      "radius": 25,
+      "points": [
+        [465, 40],
+        [305, 40]
+      ],
+      "maxVel": 1
+    },
+    {
+      "pos": [145, 345],
+      "radius": 25,
+      "points": [
+        [5, 345],
+        [5, 180],
+        [145, 180],
+        [145, 345]
+      ],
+      "maxVel": 4
+    },
+    {
+      "pos": [5, 180],
+      "radius": 25,
+      "points": [
+        [145, 180],
+        [145, 345],
+        [5, 345],
+        [5, 180]
+      ],
+      "maxVel": 4
+    }
+  ],
+  "Character": {
+    "radius": 25
+  },
+  "SavePoints": [
+    {
+      "pos": [540, 0],
+      "width": 120,
+      "height": 120
+    },
+    {
+      "pos": [300, 170],
+      "width": 100,
+      "height": 100
+    },
+    {
+      "pos": [0, 0],
+      "width": 100,
+      "height": 150
+    }
+  ]
+}

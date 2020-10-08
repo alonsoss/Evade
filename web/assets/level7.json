@@ -1,0 +1,146 @@
+{
+  "width": 700,
+  "height": 1200,
+  "RectangularObjects": [
+    {
+      "pos": [0, 0],
+      "width": 80,
+      "height": 600
+    },
+    {
+      "pos": [180, 0],
+      "width": 80,
+      "height": 300
+    },
+    {
+      "pos": [180, 400],
+      "width": 80,
+      "height": 600
+    },
+    {
+      "pos": [0, 700],
+      "width": 80,
+      "height": 500
+    },
+
+    {
+      "pos": [260, 0],
+      "width": 80,
+      "height": 650
+    },
+    {
+      "pos": [260, 750],
+      "width": 80,
+      "height": 50
+    },
+    {
+      "pos": [260, 900],
+      "width": 80,
+      "height": 100
+    },
+
+    {
+      "pos": [620, 0],
+      "width": 80,
+      "height": 650
+    },
+    {
+      "pos": [620, 750],
+      "width": 80,
+      "height": 50
+    },
+    {
+      "pos": [620, 900],
+      "width": 80,
+      "height": 300
+    }
+  ],
+  "MovingObstacles": [
+    {
+      "pos": [90, 120],
+      "radius": 40,
+      "points": [
+        [90, 900],
+        [90, 120]
+      ],
+      "maxVel": 4
+    },
+    {
+      "pos": [90, 420],
+      "radius": 40,
+      "points": [
+        [90, 900],
+        [90, 120]
+      ],
+      "maxVel": 4
+    },
+    {
+      "pos": [270, 810],
+      "radius": 40,
+      "points": [
+        [610, 810],
+        [270, 810]
+      ],
+      "maxVel": 4
+    },
+    {
+      "pos": [610, 660],
+      "radius": 40,
+      "points": [
+        [270, 660],
+        [610, 660]
+      ],
+      "maxVel": 4
+    },
+
+    {
+      "pos": [430, 190],
+      "radius": 40,
+      "points": [
+        [350, 190],
+        [530, 190]
+      ]
+    },
+    {
+      "pos": [480, 290],
+      "radius": 40,
+      "points": [
+        [350, 290],
+        [530, 290]
+      ]
+    },
+    {
+      "pos": [530, 390],
+      "radius": 40,
+      "points": [
+        [350, 390],
+        [530, 390]
+      ]
+    }
+  ],
+  "Character": {
+    "radius": 25
+  },
+  "SavePoints": [
+    {
+      "pos": [80, 0],
+      "width": 100,
+      "height": 100
+    },
+    {
+      "pos": [180, 1000],
+      "width": 160,
+      "height": 200
+    },
+    {
+      "pos": [340, 550],
+      "width": 280,
+      "height": 100
+    },
+    {
+      "pos": [340, 0],
+      "width": 280,
+      "height": 100
+    }
+  ]
+}
